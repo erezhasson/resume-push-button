@@ -2,15 +2,22 @@ import './Toggle.css'
 
 function nightmode(){
   var nightmodeswitch = document.getElementById('dn');
+  var header = document.getElementById('header');
   var loading = document.getElementById('loading-bullets');
   var color; 
 
   if (nightmodeswitch.checked){
     color = '#17202e';  
     loading.style.fill = 'white';
+
+    header.style.color = '#fff';
+    header.style.textShadow = '0.05em 0.05em #7d0081';
   }else{
     color = 'white'
     loading.style.fill = '#17202e';
+
+    header.style.color = '#000';
+    header.style.textShadow = '0.05em 0.05em #9d91b3';
   }
   document.body.style.background = color;
 }

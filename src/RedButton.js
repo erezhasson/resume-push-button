@@ -3,6 +3,7 @@ import './RedButton.css'
 const delay = ms => new Promise(res => setTimeout(res, ms));
 
 const showResponseMessage = async () => {
+
   const element = document.getElementById("response-message");	// Get element
   const loading = document.getElementById("loader-container");
 
@@ -22,7 +23,7 @@ export const showResume = () => {
 function RedButton () {
   return (
     <div class="center">
-      <div className="header">Resume Push Button 📃</div>
+      <div id="header" className="header">Resume Push Button 📃</div>
     <div id="loader-container">
     <div id="loader-dummy">
       <svg class="loader" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 19.8 5.3">
