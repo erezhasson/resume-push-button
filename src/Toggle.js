@@ -1,5 +1,11 @@
 import './Toggle.css'
 
+function changeBioColors(color) {
+  var card = document.getElementsByClassName('profile-card');
+  
+  // card.style.background= "#0e0e0"
+}
+
 function nightmode(){
   var nightmodeswitch = document.getElementById('dn');
   var header = document.getElementById('header');
@@ -19,6 +25,8 @@ function nightmode(){
     header.style.color = '#000';
     header.style.textShadow = '0.05em 0.05em #9d91b3';
   }
+  changeBioColors(color);
+
   document.body.style.background = color;
 }
 

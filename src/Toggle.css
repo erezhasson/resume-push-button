@@ -8,9 +8,8 @@ body {
     position: absolute;
     left: 50%;
     bottom: 0;
-    margin-bottom: 1em;
+    margin-bottom: 5px;
     overflow: hidden;
-    padding: 0 200px;
     transform: translate3d(-50%, -50%, 0);
     background-color: transparent;
   }
