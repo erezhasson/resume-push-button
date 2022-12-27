@@ -56,7 +56,6 @@
   <ol>
     <li>
       <a href="#about-the-project">About The Project</a>
-      Resume Push Button is one my first react projects, maily used for practicing front-end elements and animations.
       <ul>
         <li><a href="#built-with">Built With</a></li>
       </ul>
