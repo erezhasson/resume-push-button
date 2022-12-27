@@ -82,7 +82,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-Boiled egg timer is one my first react projects, maily used for practicing front-end elements and animations.
+Resume Push Button is one my first react projects, maily used for practicing front-end elements and animations.
 
 ### Built With
 
